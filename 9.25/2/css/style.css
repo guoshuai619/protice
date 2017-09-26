@@ -1,0 +1,91 @@
+.wrapper,body,html{
+    width:100%;
+    height:100%;
+}
+body{
+    font-size:.32rem;
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+}
+header{
+    color:#fff;
+    width:100%;
+    height:.92rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+    background:red;
+}
+section{
+    flex:1;
+    overflow: hidden;
+}
+.search{
+    width:100%;
+    height:1.2rem;
+    padding:5px;
+}
+.search p{
+    position: relative;
+    width:100%;
+    height:100%;
+    padding:5px;
+}
+.search p input{
+    width:100%;
+    height:100%;
+    border-radius: 4px;
+    padding-left:.7rem;
+    color:#eee;
+}
+.search p .icon{
+    position: absolute;
+    top:.3rem;
+    left:.4rem;
+}
+.title{
+    width:100%;
+    height:.42rem;
+    background:#CECECE;
+    font-size:.24rem;
+    line-height:.42rem;
+    padding-left:.2rem;
+}
+.content{
+    width:100%;
+    height:100%;
+    padding-right:.5rem;
+    position: relative;
+}
+.hotlist li{
+    width:100%;
+    height:.92rem;
+    padding-left:.2rem;
+    line-height:.92rem;
+}
+.hotCity{
+    width:100%;
+    padding-left:.2rem;
+}
+.hotCity li{
+    width:100%;
+    height:.92rem;
+    border-bottom:1px solid #ccc;
+    line-height:.92rem;
+}
+.right{
+    position: absolute;
+    width:.5rem;
+    height:100%;
+    top:0;
+    right:0;
+}
+.right li{
+    color:#37CA79;
+    font-size:.24rem;
+    line-height:.4rem;
+    text-align: center;
+}

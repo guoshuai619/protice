@@ -1,0 +1,136 @@
+.wrapper,html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    font-size:.32rem;
+    background:#F5F5F5
+}
+.wrapper{
+    display:flex;
+    flex-direction:column;
+}
+header{
+    height:.88rem;
+    width:100%;
+    font-size:.38rem;
+    text-align:center;
+    line-height:.88rem;
+    background:#46D265;
+    color:#fff;
+}
+
+section{
+    flex: 1;
+}
+.banner{
+    width:100%;
+    height:2.46rem;
+
+}
+.banner img{
+    width:100%;
+    height:100%;
+}
+.list{
+    width£»100%;
+    height:3.6rem;
+    display:flex;
+    flex-wrap:wrap;
+    background:#fff;
+}
+.list li{
+    padding-top:12px;
+    width:25%;
+    text-align:center;
+}
+.list li span{
+    font-size:.3rem;
+    line-height:.8rem;
+}
+.list li .icon{
+    font-size:.6rem;
+    background:red;
+    padding:8px;
+    color:#fff;
+    border-radius: 50%;
+}
+.list li:nth-child(1) .icon{
+    background:#46D265;
+}
+.list li:nth-child(2) .icon{
+    background:#FF7900;
+}
+.list li:nth-child(3) .icon{
+    background:#5AAAFF;
+}
+.list li:nth-child(4) .icon{
+    background:#FEB546;
+}
+.list li:nth-child(5) .icon{
+    background:#FE645A;
+}
+.list li:nth-child(6) .icon{
+    background:#66CBFF;
+}
+.list li:nth-child(7) .icon{
+    background:#FFD33C;
+}
+.list li:nth-child(8) .icon{
+    background:#5BDCC8;
+}
+.content{
+    width:100%;
+    padding:5px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.content .cont{
+    position: relative;
+    width:48%;
+    height:1.5rem;
+    background:#fff;
+    margin-top:10px;
+}
+.cont dt{
+    width:100%;
+    height:100%;
+    padding-left:.1rem;
+}
+.cont dt h4{
+    font-size:.4rem;
+    line-height:.7rem;
+}
+.cont dt p{
+    color:#CBCBCB;
+    color:#CBCBCB;
+    font-size:.28rem;
+    line-height:.6rem;
+}
+.cont dd{
+    position: absolute;
+    top:.1rem;
+    right:.1rem;
+    width:1.3rem;
+    height:1.3rem;
+}
+.cont dd img{
+    width:100%;
+    height:100%;
+}
+footer{
+    display: flex;
+    height:.98rem;
+    background:#F9F9F9;
+    border-top:1px solid #ccc;
+}
+footer span{
+    flex-grow:1;
+    text-align:center;
+    font-size:.24rem;
+    padding-top:.1rem;
+}
+footer .icon{
+    font-size:.4rem;
+}
